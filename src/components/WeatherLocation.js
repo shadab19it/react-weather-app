@@ -1,10 +1,16 @@
 import React from 'react';
 
+import Location from './Location';
+import WeatherData from './WeatherData';
+
 // Functional Component.
 
 // Cuerpo del componente. Arrow function con codigo JSX.
 const WeatherLocation = () => (
-    <div> Weather Location </div>
+    <div>
+        <Location></Location>
+        <WeatherData></WeatherData>
+    </div>
 );
 
 // Exportamos por defecto.
