@@ -8,7 +8,7 @@ import WeatherData from './WeatherData';
 // Cuerpo del componente. Arrow function con codigo JSX.
 const WeatherLocation = () => (
     <div>
-        <Location></Location>
+        <Location city={'Zaragoza (Spain)'}></Location>
         <WeatherData></WeatherData>
     </div>
 );
